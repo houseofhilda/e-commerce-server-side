@@ -21,7 +21,7 @@ app.use(helmet());
 app.set("trust proxy", 1);
 // app.use(rateLimiter({ windowMs: 15 * 60 * 1000, max: 100 }));
 
-// routes
+// routesg
 const userAccess = require("./Route/userAuthRoute");
 const transaction = require("./Route/transactionRoute");
 const cartItems = require("./Route/cartRoute");
