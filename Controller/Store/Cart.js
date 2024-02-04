@@ -17,7 +17,7 @@ const addToCart = async (req, res) => {
       productprice,
       quantity,
     } = req.body;
-
+// cart
     // check if the user has a successful token login
     const auth = req.headers.authorization;
     if (!auth || !auth.startsWith("Bearer ")) {
