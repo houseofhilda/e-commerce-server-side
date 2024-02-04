@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 // log in as an admin
 const loginUser = async (req, res) => {
   try {
-    // get the email and password from user input
+    // get the email and password from user input .. this 
     const { useremail, password } = req.body;
 
     if (!useremail || !password) {
