@@ -10,7 +10,7 @@ const registerUser = async (req, res) => {
   // collect the form details and destructure it
   const { username, useremail, position, policy, userphonenumber, password } =
     req.body;
-
+// reg
   // check if any user in the database already use the email entered in
   const existingUser = await userSchema.findOne({
     useremail: useremail,
